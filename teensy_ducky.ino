@@ -65,6 +65,9 @@ void notepad() {
 
 void hackaway() {
   digitalWrite(ledPin, HIGH);
+  combokey(MODIFIERKEY_GUI, KEY_D);
+  delay(200);
+  
   combokey(MODIFIERKEY_GUI, KEY_R);
   delay(400);
 
